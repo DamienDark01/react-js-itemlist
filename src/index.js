@@ -18,6 +18,7 @@ function List() {
       <Item name="Bread" price="2.05" />
       <Item name="Ice cream" price="3.99" />
       <Item name="Gateau cake" price="7.99" />
+      <Item name="Cholocate drink" price="2.00" />
     </div>
   );
 }
