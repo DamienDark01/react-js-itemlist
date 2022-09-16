@@ -4,6 +4,8 @@ p {
 }
 
 .item {
+  display: inline-block;
+  width: 30%;
   background-color: lightblue;
   margin: 10px;
   padding: 10px;
