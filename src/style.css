@@ -1,6 +1,9 @@
-h1,
 p {
   font-family: Lato;
+}
+
+#head {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .item {

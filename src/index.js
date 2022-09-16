@@ -25,4 +25,12 @@ function List() {
 
 const con1 = <List />;
 
-ReactDOM.render(con1, document.getElementById('root'));
+ReactDOM.render(
+  <h1>My Item List</h1>, 
+  document.getElementById('head')
+);
+
+ReactDOM.render(
+  con1, 
+  document.getElementById('root')
+);
