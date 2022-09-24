@@ -21,6 +21,7 @@ function List() {
       <Item name="Cholocate drink" price="2.00" />
       <Item name="Soap" price="0.99" />
       <Item name="Scissors" price="1.99" />
+      <Item name="Scissors" price="1.99" />
     </div>
   );
 }
