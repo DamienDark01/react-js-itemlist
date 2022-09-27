@@ -19,7 +19,8 @@ function List() {
         price="4.99" 
       />
 
-      <Item name="Bread" price="2.05" />
+      <Item 
+        name="Bread" price="2.05" />
 
       <Item name="Ice cream" price="3.99" />
 
@@ -32,7 +33,7 @@ function List() {
       <Item name="Scissors" price="1.99" />
 
       <Item name="School bag" price="13.99" />
-      
+
       <Item name="Eraser" price="0.11" />
     </div>
   );
