@@ -33,7 +33,10 @@ function List() {
         price="7.99" 
       />
 
-      <Item name="Cholocate drink" price="2.00" />
+      <Item 
+        name="Cholocate drink" 
+        price="2.00" 
+      />
 
       <Item name="Soap" price="0.99" />
 
