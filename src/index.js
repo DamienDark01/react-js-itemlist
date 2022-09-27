@@ -14,7 +14,10 @@ function Item(props) {
 function List() {
   return (
     <div>
-      <Item name="Cheese" price="4.99" />
+      <Item 
+        name="Cheese" 
+        price="4.99" 
+      />
       <Item name="Bread" price="2.05" />
       <Item name="Ice cream" price="3.99" />
       <Item name="Gateau cake" price="7.99" />
