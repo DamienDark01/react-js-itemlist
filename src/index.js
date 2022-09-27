@@ -28,7 +28,10 @@ function List() {
         price="3.99" 
       />
 
-      <Item name="Gateau cake" price="7.99" />
+      <Item 
+        name="Gateau cake" 
+        price="7.99" 
+      />
 
       <Item name="Cholocate drink" price="2.00" />
 
