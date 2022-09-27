@@ -20,7 +20,8 @@ function List() {
       />
 
       <Item 
-        name="Bread" price="2.05" />
+        name="Bread" 
+        price="2.05" />
 
       <Item name="Ice cream" price="3.99" />
 
