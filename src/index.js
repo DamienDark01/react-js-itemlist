@@ -49,7 +49,8 @@ function List() {
       />
 
       <Item 
-        name="School bag" price="13.99" />
+        name="School bag" 
+        price="13.99" />
 
       <Item name="Eraser" price="0.11" />
     </div>
