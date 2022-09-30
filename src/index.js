@@ -53,7 +53,8 @@ function List() {
         price="13.99" 
       />
 
-      <Item name="Eraser" price="0.11" />
+      <Item 
+        name="Eraser" price="0.11" />
     </div>
   );
 }
