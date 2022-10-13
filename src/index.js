@@ -64,8 +64,8 @@ function List() {
       />
 
       <Item 
-        name="" 
-        price="" 
+        name="Iron Wool" 
+        price="3.59" 
       />
     </div>
   );
