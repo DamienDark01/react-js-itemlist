@@ -64,8 +64,8 @@ function List() {
       />
 
       <Item 
-        name="Monami D15" 
-        price="2.49" 
+        name="" 
+        price="" 
       />
     </div>
   );
