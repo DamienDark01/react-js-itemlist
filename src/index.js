@@ -62,6 +62,8 @@ function List() {
         name="Monami D15" 
         price="2.49" 
       />
+
+      
     </div>
   );
 }
