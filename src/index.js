@@ -69,8 +69,8 @@ function List() {
       />
 
 <Item 
-        name="" 
-        price="" 
+        name="Crepe" 
+        price="2.49" 
       />
     </div>
   );
