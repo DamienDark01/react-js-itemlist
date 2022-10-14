@@ -67,6 +67,8 @@ function List() {
         name="Iron Wool" 
         price="3.59" 
       />
+
+      
     </div>
   );
 }
