@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './style.css';
+import { items } from './data';
 
 function Item(props) {
   return (
@@ -13,77 +14,16 @@ function Item(props) {
 
 function List() {
   return (
-    <div>
-      <Item 
-        name="Cheese" 
-        price="4.99" 
-      />
-
-      <Item 
-        name="Bread" 
-        price="2.05" />
-
-      <Item 
-        name="Ice cream" 
-        price="3.99" 
-      />
-
-      <Item 
-        name="Gateau cake" 
-        price="7.99" 
-      />
-
-      <Item 
-        name="Cholocate drink" 
-        price="2.00" 
-      />
-
-      <Item 
-        name="Soap" 
-        price="0.99" 
-      />
-
-      <Item 
-        name="Scissors" 
-        price="1.99" 
-      />
-
-      <Item 
-        name="School bag" 
-        price="13.99" 
-      />
-
-      <Item 
-        name="Eraser" 
-        price="0.11" 
-      />
-
-      <Item 
-        name="Monami D15" 
-        price="2.49" 
-      />
-
-      <Item 
-        name="Iron Wool" 
-        price="3.59" 
-      />
-
-<Item 
-        name="Crepe" 
-        price="2.49" 
-      />
+    <div className="item-container">
+      {items.map((item) => (
+        <Item key={item.name} {...item} />
+      ))}
     </div>
   );
 }
 
 const con1 = <List />;
 
-ReactDOM.render(
-  <h1>My Item List</h1>, 
-  document.getElementById('head')
-);
+createRoot(document.getElementById('head')).render(<h1>My Item List</h1>);
 
-ReactDOM.render(
-  con1, 
-  document.getElementById('root')
-);
+createRoot(document.getElementById('root')).render(con1);
